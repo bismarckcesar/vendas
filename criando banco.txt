@@ -1,0 +1,17 @@
+create database cadastro;
+
+create table produtos(
+    codigo INT (50),
+    descricao VARCHAR(100),
+    preco DOUBLE
+    
+);
+
+create table clientes(
+    id INT NOT NULL AUTO_INCREMENT,
+    nome VARCHAR(50),
+    telefone INT(11),
+    cpf INT(11),
+    PRIMARY KEY (id)
+    
+);
