@@ -77,10 +77,10 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>422</y>
-      <width>75</width>
-      <height>41</height>
+      <x>110</x>
+      <y>330</y>
+      <width>91</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
@@ -91,25 +91,6 @@
     </property>
     <property name="text">
      <string>Cadastrar</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_2">
-    <property name="geometry">
-     <rect>
-      <x>520</x>
-      <y>420</y>
-      <width>75</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>Cancelar</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="lineEdit">
@@ -160,6 +141,26 @@
     </property>
     <property name="text">
      <string>Cadastro de Clientes</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>330</y>
+      <width>93</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Listar</string>
     </property>
    </widget>
   </widget>

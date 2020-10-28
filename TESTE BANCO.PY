@@ -8,4 +8,4 @@ banco = mysql.connector.connect(
 )
 cursor= banco.cursor()
 #cursor.execute("CREATE DATABASE python_teste")
-cursor.execute("CREATE TABLE clientes (nome VARCHAR(255),telefone INT(11), cpf INT(11))")
+#cursor.execute("CREATE TABLE clientes (nome VARCHAR(255),telefone INT(11), cpf INT(11))")
